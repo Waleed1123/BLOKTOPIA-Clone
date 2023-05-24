@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif ;
+};
+:root{
+  --color: #FF47FF;
+  --wColor: #fff;
+  --bgColor:rgb(26, 26, 26);
+  --bgLightColor:rgba(26, 26, 26, 0.7);
+  --bgColor2: black;
+};
+body{
+  background-color: var(--bgColor2);
+};
+
+.main {
+  background-color: var(--bgColor2);
+  max-width: 85.375rem;
+  margin: auto;
+};
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.875rem 1.375rem;
+};
+
+.logo img {
+  width: 15.625rem;
+};
+.WebIconsImages {
+  display: flex;
+  gap: 1.25rem;
+};
+.WebIconsImages a {
+  text-decoration: none;
+  color: var(--wColor);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
