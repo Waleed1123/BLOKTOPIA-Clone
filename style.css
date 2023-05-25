@@ -91,7 +91,15 @@ nav{
   position: relative;
 }
 
-
+.second-layout {
+  display: flex;
+  align-items: center;
+  margin: 3rem auto;
+}
+.second-video {
+  width: 50%;
+  padding: 0 2.5rem;
+}
 
 
 
