@@ -47,16 +47,49 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0.625remaZZAzswsqSWQaQAzAQ1A;
+  gap: 0.625rem;
+}
+.first-layout {
+  min-height: 100vh;
+  padding-bottom: 3.125rem;
 }
 
+.first-poster {
+  width: 80%;
+  margin: 0 auto;
+}
+.first-poster {
+  width: 100%;
+  height:56.28% ;
+  max-width: 80.063rem;
+  position: relative;
+}
+.live-button {
+  border-color:#72E5D7;
+  border-width: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.625rem 1.25rem;
+  font-size: 1.5rem;
+  border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+  border-style: solid;
+  background-color: var(--bgColor2);
+  color: var(--color);
+  position: absolute;
+  bottom: 41%;
+  left: 19%;
+  cursor: pointer;
+}
 
+.live-button:hover {
+  border-color: #FF47FF;
+  color: #72E5D7;
 
+}
 
-
-
-
-
+.first-video {
+  width: 100%;
+  min-height: 80vh;
+  position: relative;
+}
 
 
 
